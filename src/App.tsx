@@ -1,7 +1,7 @@
 import './App.css';
 import CaseStudiesPage from './components/case-studies/CaseStudies';
 import HeroSection from './components/hero/Hero';
-import Partners from './components/partners/Partners';
+import Partners from './components/section-three/Partners';
 import PurposeSection from './components/porpose/PurposeSection';
 
 const App = () => {

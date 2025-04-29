@@ -47,7 +47,7 @@
 }
 @media (max-width:768px) {
     .section{
-        width: 100%;
+        width: fit-content;
     }
     .section p{
         font-size: 17px;

@@ -1,5 +1,4 @@
 .backgroundImage{
-    /* background-image: url('https://res.cloudinary.com/dswi7h0dg/image/upload/v1745941522/fixed-bg-one_faz6tg.webp'); */
     background-image: url('/public/fixed-bg-one.webp');
     background-size: cover;
     background-attachment: fixed;
@@ -47,7 +46,7 @@
 }
 @media (max-width:768px) {
     .section{
-        width: 100%;
+        width: fit-content;
     }
     .section p{
         font-size: 17px;
