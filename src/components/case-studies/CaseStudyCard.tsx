@@ -19,7 +19,7 @@ export default function CaseStudyCard({ category, title, description, image}: Ca
             onMouseLeave={() => setIsHovered(false)}
         >
             <div className={styles.imageContainer}>
-                <img src={image || "public/case-study.webp"} alt={title} style={{ objectFit: "cover", height:"100%", width:'100%'}} />
+                <img src={image || ""} alt={title} style={{ objectFit: "cover", height:"100%", width:'100%'}} />
 
                 <div className={`${styles.overlay} ${isHovered ? styles.overlayExpanded : ""}`}>
                     <div className={styles.category}>{category}</div>
